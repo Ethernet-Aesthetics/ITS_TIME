@@ -1,11 +1,7 @@
 const emotions = [
   "Yeltsin", "Yeltsin", "Tree", "Ocean", "mountains",
   "salty", "electrical", "in love", "thunder", "flash",
-  "zero", "UNDERAPPRECIATED", "FRAUDULENT", "GENIUS",
-  "UNSUPERVISED", "READY", "DELICATE", "INCONVENIENT",
-  "PREHISTORIC", "EXPENSIVE", "DRAMATIC", "DELUSIONAL",
-  "UNHINGED", "OPTIMISTIC", "PETTY", "TRANSCENDENT",
-  "OBSOLETE", "INVISIBLE", "FERMENTED", "COMPETENT"
+  "zero"
 ];
 
 const fontScales = [0.03, 0.05, 0.08, 0.11, 0.14];
@@ -47,7 +43,7 @@ function draw() {
 
   // Rotate around center, if selected
   if (isRotating) {
-    rotate(frameCount * 0.01);
+    rotate(frameCount * 1);
   }
 
   // Text appearance
