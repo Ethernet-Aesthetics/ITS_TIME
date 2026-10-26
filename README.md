@@ -1,2 +1,2 @@
-# ITS_TIME
+# ITS TIME
 DMA252A workshop repo
