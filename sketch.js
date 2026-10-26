@@ -3,7 +3,7 @@ const emotions = [
   "EXCITED", "BORED", "CONFUSED", "SUSPICIOUS", "HAUNTED",
   "OVERQUALIFIED", "UNDERAPPRECIATED", "FRAUDULENT", "GENIUS",
   "UNSUPERVISED", "READY", "DELICATE", "INCONVENIENT",
-  "PREHISTORIC", "EXPENSIVE", "DRAMATIC", "DELUSIONAL",
+  "OVERWHELMED", "EXPENSIVE", "DRAMATIC", "DELUSIONAL",
   "UNHINGED", "OPTIMISTIC", "PETTY", "TRANSCENDENT",
   "OBSOLETE", "INVISIBLE", "FERMENTED", "COMPETENT"
 ];
@@ -15,7 +15,8 @@ let backgroundColor;
 let textColor;
 let strokeColor;
 let fontScale;
-let isRotating;
+let isRotating; 
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
