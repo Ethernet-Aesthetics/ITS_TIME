@@ -15,7 +15,8 @@ let backgroundColor;
 let textColor;
 let strokeColor;
 let fontScale;
-let isRotating;
+let isRotating; 
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
